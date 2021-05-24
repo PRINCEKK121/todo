@@ -2,6 +2,16 @@ body {
   background: #9141d3;
 }
 
+li {
+  background: #dddfe4;
+  transition: all 0.2s;
+}
+
+li:hover {
+  background: #6f0cc0;
+  color: #dddfe4;
+}
+
 .link-item {
   color: #9141d3;
 }

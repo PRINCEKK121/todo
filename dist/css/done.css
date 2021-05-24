@@ -8,6 +8,14 @@ body {
 
 li {
   text-decoration: line-through 0.1rem #c31f53;
+  background: #dddfe4;
+  transition: all 0.2s;
+}
+
+li:hover {
+  background: #e9628d;
+  text-decoration: line-through 0.1rem #c31f53;
+  color: #dddfe4;
 }
 
 .link-item {

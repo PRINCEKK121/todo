@@ -24,6 +24,13 @@ ul {
 
 li {
   background: #dddfe4;
+  transition: all 0.2s;
+}
+
+li:hover {
+  background: #8072db;
+  color: #dddfe4;
+  transform: scale(1.1);
 }
 
 input {
