@@ -1,0 +1,15 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #c31f53;
+}
+
+li {
+  text-decoration: line-through 0.1rem #c31f53;
+}
+
+.link-item {
+  color: #c31f53;
+}

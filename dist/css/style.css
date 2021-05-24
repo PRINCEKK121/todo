@@ -1,0 +1,103 @@
+/****** BASIC SELECTORS ********/
+* {
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #5c4fab;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  background: #dddfe4;
+}
+
+input {
+  /* display: inline-block; */
+  width: 85%;
+  border: none;
+  margin-right: 0.5rem;
+}
+
+input:focus {
+  outline: 0.1rem solid #5c4fab;
+  color: #5c4fab;
+}
+
+button {
+  color: #5c4fab;
+  border: 0.1rem solid #5c4fab;
+  transition: all 0.2s;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #5c4fab;
+  color: #e7e9ee;
+}
+
+/*********** CLASSES ************/
+.spacing {
+  padding: 1rem 2rem;
+  font-size: 2rem;
+}
+
+.links {
+  text-align: right;
+}
+
+.link-item {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #5c4fab;
+}
+
+.link-item:hover {
+  text-decoration: underline;
+}
+
+.link-item:first-of-type {
+  padding-right: 2rem;
+}
+
+/********* Utilities *********/
+.container {
+  width: 80%;
+  text-align: center;
+  height: 99.5vh;
+  margin: 0 auto;
+  position: relative;
+}
+
+.center-elements {
+  width: 40%;
+  padding: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #e7e9ee;
+  border-radius: 0.5rem;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.mb {
+  margin-bottom: 2rem;
+}
